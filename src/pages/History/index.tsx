@@ -1,4 +1,4 @@
-import { HistoryContainer, HistoryList } from './styles'
+import { HistoryContainer, HistoryList, Status } from './styles'
 
 export function History() {
   return (
@@ -12,7 +12,7 @@ export function History() {
               <th>Task</th>
               <th>Duration</th>
               <th>Start</th>
-              <th>End</th>
+              <th>Status</th>
             </tr>
           </thead>
           <tbody>
@@ -20,37 +20,49 @@ export function History() {
               <td>Simple Task</td>
               <td>40:00</td>
               <td>21:33</td>
-              <td>23:13</td>
+              <td>
+                <Status statusColor="yellow">Concluded</Status>
+              </td>
             </tr>
             <tr>
               <td>Simple Task</td>
               <td>40:00</td>
               <td>21:33</td>
-              <td>23:13</td>
+              <td>
+                <Status statusColor="yellow">Concluded</Status>
+              </td>
             </tr>
             <tr>
               <td>Simple Task</td>
               <td>40:00</td>
               <td>21:33</td>
-              <td>23:13</td>
+              <td>
+                <Status statusColor="yellow">Concluded</Status>
+              </td>
             </tr>
             <tr>
               <td>Simple Task</td>
               <td>40:00</td>
               <td>21:33</td>
-              <td>23:13</td>
+              <td>
+                <Status statusColor="yellow">Concluded</Status>
+              </td>
             </tr>
             <tr>
               <td>Simple Task</td>
               <td>40:00</td>
               <td>21:33</td>
-              <td>23:13</td>
+              <td>
+                <Status statusColor="yellow">Concluded</Status>
+              </td>
             </tr>
             <tr>
               <td>Simple Task</td>
               <td>40:00</td>
               <td>21:33</td>
-              <td>23:13</td>
+              <td>
+                <Status statusColor="yellow">Concluded</Status>
+              </td>
             </tr>
           </tbody>
         </table>
